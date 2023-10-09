@@ -1,0 +1,35 @@
+body {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background-color: rgb(18, 18, 18);
+  color: aliceblue;
+  font-family:lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Monaco"
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: aliceblue;
+}
+
+.center {
+  text-align: center;
+}
+
+ol.center {
+  text-align: justify;
+  list-style-position: inside;
+  padding-left: 22vw;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
