@@ -38,3 +38,37 @@ img.center {
   margin-left: auto;
   margin-right: auto;
 }
+
+hr {
+  margin: 1.5em auto;
+  border: 1px solid rgb(252, 192, 192, 10%);
+}
+
+
+div.elem {
+  border: solid  #41937d 3px;
+  margin: 10px auto;
+  position: relative;
+  padding-bottom: 20px;
+}
+.elem p {
+  padding: 0 1em;
+}
+
+.label {
+  background-color: #41937d;
+  padding: 1px 5px 3px 2px;
+  margin: 0;
+  display: inline;
+}
+
+.endlabel {
+  background-color: #41937d;
+  padding: 3px 3px 0 5px;
+  margin: 0;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
