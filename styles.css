@@ -78,7 +78,11 @@ div.elem {
   gap: 10px;
   align-items: flex-start;
   justify-content: center;
-  height: 200px;
+  margin: 10px auto;
+  padding: 10px 0 20px 0;
+  height: 150px;
+  border-bottom: 1px solid rgb(252, 192, 192, 10%);
+  position: relative;
 }
 
 .container span {
@@ -89,7 +93,8 @@ div.elem {
 
 .container img {
   width: 200px;
-  height: auto;
+  height: 150px;
+  object-fit: cover;
 }
 .v-container {
   height: 150px;
@@ -104,8 +109,21 @@ div.elem {
 }
 
 button {
+  position: absolute;
+  bottom: 30px;
   padding: 7px;
   background-color: transparent;
   color: white;
   border: 1px solid #424242;
+  cursor: pointer;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header img {
+  width: 50px;
+  height: auto;
 }
