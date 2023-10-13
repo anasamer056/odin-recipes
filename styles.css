@@ -72,3 +72,40 @@ div.elem {
   right: 0;
 
 }
+
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 200px;
+}
+
+.container span {
+  font-family: "Monaco", sans-serif;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+}
+.v-container {
+  height: 150px;
+  width: 600px;
+}
+.v-container p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button {
+  padding: 7px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #424242;
+}
